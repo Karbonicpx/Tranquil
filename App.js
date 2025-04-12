@@ -1,12 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 import HomeInterface from './Components/HomeInterface';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <HomeInterface></HomeInterface>
+      <HomeInterface>
+      </HomeInterface>
       
-    </View>
   );
 }
 
